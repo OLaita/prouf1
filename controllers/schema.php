@@ -84,7 +84,7 @@
                     setcookie("mostrar", "SESION INICIADA");
                     $_SESSION["userId"] = $usuario['id'];
                     $_SESSION["userLogged"] = $usuario['uname'];
-                    header('Location: ?url=profile');
+                    header('Location: ?url=allTask');
                 }
             }
             

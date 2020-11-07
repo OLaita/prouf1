@@ -35,11 +35,7 @@
             <input type="password" class="form-control text-center" placeholder="Enter password" id="pwd" name="pass2">
         </div>
         </div>
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switch1" name="reg">
-            <label class="custom-control-label" for="switch1">Esta todo bien?</label><br><br>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" name="reg" class="btn btn-primary">Submit</button>
 
     </form>
 
