@@ -2,6 +2,7 @@
 
     include 'src/templates/header.tpl.php';
     setcookie('mostrar', "Iniciar sesion");
+    setcookie('regis', "Formulario de registro");
 
 ?>
 

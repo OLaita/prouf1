@@ -45,7 +45,7 @@
     // crear usuarios 1 a 1
     function insertItems(PDO $db,string $email, string $user, string $pass){
 
-        $stmt = $db->prepare("INSERT INTO users (email, uname, passw, role) VALUES (:email,:uname,:passw, 2)");
+        $stmt = $db->prepare("INSERT INTO users (email, uname, passw, role) VALUES (:email,:uname,:passw, 1)");
 
         if($stmt->execute([':email'=>$email, ':uname'=>$user, ':passw'=>$pass]) ){
             $mostrar = setcookie("mostrar", "USUARIO REGISTRADO");

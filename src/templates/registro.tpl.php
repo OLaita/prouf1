@@ -1,7 +1,6 @@
 <?php
 
     include 'src/templates/header.tpl.php';
-    setcookie('regis', 'Formulario de registro');
 
 ?>
 
